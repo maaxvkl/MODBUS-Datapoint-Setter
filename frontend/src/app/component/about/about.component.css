@@ -1,0 +1,159 @@
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  background: #1976d2;
+  padding: 20px 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.nav-links li{
+  list-style: none;
+  margin: 0 12px;
+}
+.nav-links li a{
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+.nav-links li a:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #34efdf;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+.nav-links li a:hover:before{
+  width: 100%;
+}
+.nav-links li.center a:before{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-links li.upward a:before{
+  width: 100%;
+  bottom: -5px;
+  opacity: 0;
+}
+.nav-links li.upward a:hover:before{
+  bottom: 0px;
+  opacity: 1;
+}
+.nav-links li.forward a:before{
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+.nav-links li.forward a:hover:before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.logo-container {
+  margin-left: 93%;
+  width: 6%;
+  height: auto;
+  display: block;
+  position: absolute;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  opacity: 0.85; /* optional */
+  pointer-events: none;
+}
+
+.about-container {
+  max-width: 2000px;           
+  margin: 60px auto 50px 20px;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about-container h1 {
+  color: #1976d2;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  margin-top: 30px;
+  color: #1976d2;
+  font-size: 1.5rem;
+}
+
+.screenshot-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.screenshot-container img {
+  width: 100%;
+  height: auto;                 /* Bilder bleiben im Verhältnis */
+  max-width: 800px;             /* Bilder werden nicht zu groß */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.screenshot-container img:hover {
+  transform: scale(1.02);
+}
+
+/* 📱 Responsives Verhalten für kleine Bildschirme */
+@media (max-width: 768px) {
+  .about-container {
+    margin: 80px 10px 30px 10px;  /* weniger Rand bei Smartphones/Tablets */
+    padding: 0 10px;
+  }
+
+  .about-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .screenshot-container img {
+    max-width: 100%; /* Bild füllt die Breite des Screens */
+  }
+
+  .screenshot-hint {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #125aa0;
+}
+
+
+}
