@@ -37,6 +37,5 @@ The tool is **hosted on a Raspberry Pi 5**, which is deployed within the **custo
 
 **After Processing – Excel File with Mapped BACnet Names and Values**  
 ![After Processing 1](screenshots/after_processing_1.png)  
-![After Processing 2](screenshots/after_processing_2.png)
 
 ---
