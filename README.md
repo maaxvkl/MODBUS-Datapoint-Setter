@@ -29,7 +29,9 @@ The tool is **hosted on a Raspberry Pi 5**, which is deployed within the **custo
 
 ---
 
-### Before Processing - Excel File with Modbus raw datapoints
+## 📸 Screenshots
+
+**Before Processing – Excel File with Raw Modbus Datapoints**  
 | ![Before Processing 1](screenshots/before_processing_1.png) | ![Before Processing 2](screenshots/before_processing_2.png) |
 |:----------------------------------------------------------:|:----------------------------------------------------------:|
 
