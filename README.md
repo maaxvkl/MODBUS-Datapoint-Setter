@@ -33,8 +33,8 @@ The tool is **hosted on a Raspberry Pi 5**, which is deployed within the **custo
 
 **Before Processing – Excel File with Raw Modbus Datapoints**  
 <p>
-  <img src="screenshots/before_processing_1.png" height="180" width="45%" />
-  <img src="screenshots/before_processing_2.png" height="150" width="45%" />
+  <img src="screenshots/before_processing_1.png" height="180" width="47%" />
+  <img src="screenshots/before_processing_2.png" height="150" width="47%" />
 </p>
 
 **After Processing – Excel File with Mapped BACnet Names and Values**  
