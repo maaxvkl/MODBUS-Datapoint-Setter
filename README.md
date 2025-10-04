@@ -32,7 +32,7 @@ The tool is **hosted on a Raspberry Pi 5**, which is deployed within the **custo
 ## 📸 Screenshots
 
 **Before Processing – Excel File with Raw Modbus Datapoints**  
-<p align="center">
+<p>
   <img src="screenshots/before_processing_1.png" height="100" />
   <img src="screenshots/before_processing_2.png" height="100" />
 </p>
