@@ -1,6 +1,6 @@
 # MODBUS Datapoint Setter
 
-The MODBUS Datapoint setter is a **project-specific Java algorithm** for mapping **Modbus raw datapoints** to predefined **customer BACnet names and values**.  
+The MODBUS Datapoint setter is a project-specific Java application for mapping **Modbus raw datapoints** to predefined **customer BACnet names and values**.  
 
 The tool is **hosted on a Raspberry Pi 5**, which is deployed within the **customer's network**, enabling direct processing of data in the local environment.
 
