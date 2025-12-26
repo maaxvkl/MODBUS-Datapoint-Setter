@@ -43,4 +43,9 @@ The tool is **hosted on a Raspberry Pi 5**, which is deployed within the **custo
   <img src="screenshots/after_processing_1.png" height="400" />
 </p>
 
+**After Processing – Datapoint inside the System Configuration Tool**  
+<p align="center">
+  <img src="screenshots/sct.png"/>
+</p>
+
 ---
